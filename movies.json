@@ -24,7 +24,7 @@
         "tags": ["классика"],
         "poster": "https://yandex.net",
         "description": "Группа исследователей отправляется в путешествие сквозь червоточину, чтобы спасти человечество.",
-        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0" allowfullscreen><\/iframe>"
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
     },
     {
         "id": "john-wick",
