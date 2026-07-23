@@ -62,15 +62,7 @@
         "description": "Друзья пытаются вспомнить, что произошло на безумной предсвадебной вечеринке.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
     },
-    {
-        "id": "mad-max-fury",
-        "title": "Безумный Макс: Дорога ярости",
-        "category": "боевик",
-        "tags": ["классика"],
-        "poster": "https://yandex.net",
-        "description": "Погоня по бескрайней постапокалиптической пустыне на невероятных машинах.",
-        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    },
+
     {
         "id": "i-robot",
         "title": "Я, Робот",
@@ -106,7 +98,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
         {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -115,7 +107,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -124,7 +116,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -133,7 +125,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -142,7 +134,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -151,7 +143,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -160,7 +152,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -169,7 +161,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -178,7 +170,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -187,7 +179,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -196,7 +188,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -205,7 +197,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -214,7 +206,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -223,7 +215,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -232,7 +224,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -241,7 +233,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -250,7 +242,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -259,7 +251,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -268,7 +260,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -277,7 +269,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -286,7 +278,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -295,7 +287,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -304,7 +296,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -313,7 +305,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -322,7 +314,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -331,7 +323,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -340,7 +332,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -349,7 +341,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -358,7 +350,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -367,7 +359,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -376,7 +368,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -385,7 +377,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -394,7 +386,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -403,7 +395,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -412,7 +404,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -421,7 +413,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -430,7 +422,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
@@ -439,7 +431,7 @@
         "poster": "https://yandex.net",
         "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
-    }
+    },
     {
         "id": "mission-impossible",
         "title": "Миссия невыполнима",
