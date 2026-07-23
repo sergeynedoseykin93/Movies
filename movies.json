@@ -57,7 +57,7 @@
         "id": "hangover-vegas",
         "title": "Мальчишник в Вегасе",
         "category": "комедия",
-        "tags: ["классика"],
+        "tags": ["классика"],
         "poster": "https://yandex.net",
         "description": "Друзья пытаются вспомнить, что произошло на безумной предсвадебной вечеринке.",
         "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
