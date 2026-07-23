@@ -1,7 +1,5 @@
-// Переменная для хранения фильмов, которая заполнится автоматически из файла movies.json
 let movies = [];
 
-// ПЕРЕМЕННЫЕ ЭЛЕМЕНТОВ ИНТЕРФЕЙСА
 const movieGrid = document.getElementById('movie-grid');
 const catalogSection = document.getElementById('catalog-section');
 const playerSection = document.getElementById('player-section');
@@ -10,28 +8,21 @@ const similarMoviesGrid = document.getElementById('similar-movies-grid');
 const navMenu = document.getElementById('nav-menu');
 const paginationContainer = document.getElementById('pagination');
 
-// ГЛОБАЛЬНЫЕ НАСТРОЙКИ ФИЛЬТРАЦИИ И НАВИГАЦИИ
 let currentCategory = 'all';
 let currentTag = null;
 let searchQuery = '';
 let currentPage = 1;       
-const moviesPerPage = 4;   // Настройка пагинации каталога (замени на 50, когда добавишь много фильмов)
+const moviesPerPage = 50;   
 
-// ПЕРЕМЕННЫЕ ДЛЯ ПОДГРУЗКИ ПОХОЖИХ ВИДЕО
 let allSimilarMovies = [];
 let shownSimilarCount = 0;
-const similarPerPage = 9;  // Сколько похожих фильмов подгружать за раз
+const similarPerPage = 9;  
 
-// ФУНКЦИЯ ДИНАМИЧЕСКОЙ ЗАГРУЗКИ ДАННЫХ ИЗ ФАЙЛА MOVIES.JSON
 async function loadMoviesData() {
     try {
         const response = await fetch('movies.json');
-        if (!response.ok) {
-            throw new Error('Не удалось загрузить базу данных фильмов');
-        }
+        if (!response.ok) throw new Error('Не удалось загрузить базу данных фильмов');
         movies = await response.json();
-        
-        // После успешной загрузки запускаем отображение каталога и проверку ссылок
         renderMovies();
         checkInitialUrl();
     } catch (error) {
@@ -40,24 +31,38 @@ async function loadMoviesData() {
     }
 }
 
-// ФУНКЦИЯ ГЕНЕРАЦИИ КАРТОЧКИ ФИЛЬМА
 function createMovieCard(movie) {
     const card = document.createElement('div');
     card.className = 'movie-card';
+    const moviePoster = movie.poster ? movie.poster.trim() : "";
+
+    // HTML-разметка теперь абсолютно чистая, без длинных скриптов внутри тегов
     card.innerHTML = `
-        <img src="${movie.poster}" alt="${movie.title}">
+        <div class="poster-container">
+            <img src="${moviePoster}" alt="${movie.title}" loading="lazy">
+        </div>
         <div class="movie-info">
             <h4>${movie.title}</h4>
             <div class="movie-tags">
-                ${movie.tags.map(t => `<span class="tag-badge">${t}</span>`).join('')}
+                ${movie.tags ? movie.tags.map(t => `<span class="tag-badge">${t}</span>`).join('') : ''}
             </div>
         </div>
     `;
+
+    // Безопасная обработка ошибки 404 через чистый JavaScript (без риска запутаться в кавычках)
+    const img = card.querySelector('img');
+    if (img) {
+        img.onerror = function() {
+            this.onerror = null; // Предотвращаем бесконечный цикл
+            this.outerHTML = '<div class="no-poster-vertical">🎬</div>';
+        };
+    }
+
     card.addEventListener('click', () => openMovie(movie));
     return card;
 }
 
-// ОТРИСОВКА ГЛАВНОГО КАТАЛОГА С УЧЕТОМ ФИЛЬТРОВ И ПАГИНАЦИИ
+
 function renderMovies() {
     if (!movieGrid) return;
     movieGrid.innerHTML = '';
@@ -80,7 +85,7 @@ function renderMovies() {
     renderPagination(totalPages);
 }
 
-// ОТРИСОВКА КНОПОК ПАГИНАЦИИ КАТАЛОГА
+
 function renderPagination(totalPages) {
     if (!paginationContainer) return;
     paginationContainer.innerHTML = '';
@@ -120,7 +125,7 @@ function renderPagination(totalPages) {
     });
     paginationContainer.appendChild(nextBtn);
 }
-// ОТРИСОВКА И ПОРЦИОННЫЙ ВЫВОД ПОХОЖИХ ФИЛЬМОВ
+
 function renderSimilarMovies(currentMovie) {
     if (!similarMoviesGrid) return;
     similarMoviesGrid.innerHTML = '';
@@ -158,7 +163,6 @@ function loadNextSimilar() {
     }
 }
 
-// ФУНКЦИЯ ОТКРЫТИЯ ПЛЕЕРА И ИНФОРМАЦИИ О ФИЛЬМЕ
 function openMovie(movie, pushState = true) {
     if (!catalogSection || !playerSection || !videoContainer) return;
     
@@ -196,7 +200,6 @@ function openMovie(movie, pushState = true) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// ФУНКЦИЯ ЗАКРЫТИЯ ПЛЕЕРА И ВОЗВРАТА К КАТАЛОГУ
 function closeMovie(pushState = true) {
     if (!catalogSection || !playerSection || !videoContainer || !similarMoviesGrid) return;
     
@@ -216,7 +219,6 @@ function closeMovie(pushState = true) {
     if (loadMoreBtn) loadMoreBtn.classList.add('hidden');
 }
 
-// ОБРАБОТЧИКИ СОБЫТИЙ И НАВИГАЦИИ КАТАЛОГА
 if (document.getElementById('back-to-catalog')) {
     document.getElementById('back-to-catalog').addEventListener('click', () => closeMovie());
 }
@@ -296,13 +298,11 @@ if (document.getElementById('search-input')) {
     });
 }
 
-// КНОПКА БУРГЕР-МЕНЮ (МОБИЛЬНАЯ)
 const menuToggle = document.getElementById('menu-toggle');
 if (menuToggle && navMenu) {
     menuToggle.addEventListener('click', () => navMenu.classList.toggle('open'));
 }
 
-// ФИКСИРОВАННАЯ КНОПКА "ВВЕРХ"
 const scrollTopBtn = document.getElementById('scroll-top-btn');
 if (scrollTopBtn) {
     window.addEventListener('scroll', () => {
@@ -314,7 +314,6 @@ if (scrollTopBtn) {
     });
 }
 
-// СЛУШАТЕЛИ СТРЕЛОЧЕК БРАУЗЕРА ("НАЗАД" / "ВПЕРЕД")
 window.addEventListener('popstate', (e) => {
     if (e.state && e.state.movieId) {
         const movie = movies.find(m => m.id === e.state.movieId);
@@ -325,7 +324,6 @@ window.addEventListener('popstate', (e) => {
     }
 });
 
-// ПРОВЕРКА ПРЯМЫХ ССЫЛОК ПРИ ЗАГРУЗКЕ
 function checkInitialUrl() {
     const urlParams = new URLSearchParams(window.location.search);
     const initialMovieId = urlParams.get('id');
@@ -337,5 +335,4 @@ function checkInitialUrl() {
     }
 }
 
-// ЗАПУСК ЗАГРУЗКИ ДАННЫХ ИЗ JSON ФАЙЛА
 loadMoviesData();

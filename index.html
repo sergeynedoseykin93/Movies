@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Шапка сайта -->
     <header class="site-header">
-        <!-- Блок слева: бургер-меню, логотип и категории -->
         <div class="header-left">
             <button class="menu-toggle" id="menu-toggle" aria-label="Открыть меню">&#9776;</button>
             <a href="#" class="logo" id="logo-link">Фильмы Онлайн</a>
@@ -22,7 +20,6 @@
                 </ul>
             </nav>
         </div>
-        <!-- Блок справа: живой поиск -->
         <div class="header-right">
             <div class="search-box">
                 <input type="text" id="search-input" placeholder="Поиск по названию...">
@@ -30,21 +27,12 @@
         </div>
     </header>
 
-    <!-- Основной контент -->
     <main class="container">
-        
-        <!-- БЛОК КАТАЛОГА (СТРАНИЦА СПИСКА ФИЛЬМОВ) -->
+        <!-- БЛОК КАТАЛОГА -->
         <div id="catalog-section">
-            <!-- Сетка с карточками фильмов -->
             <section class="movie-grid" id="movie-grid"></section>
-
-            <!-- Пагинация (находится сразу под фильмами) -->
-            <div id="pagination" class="pagination text-center" style="margin: 30px 0; display: flex; justify-content: center; gap: 10px; align-items: center;">
-                <!-- Кнопки генерируются автоматически через JavaScript -->
-            </div>
-
-            <!-- Популярные теги в каталоге -->
-            <section class="filters text-center" style="border-top: 1px solid #222; padding-top: 20px; margin-top: 30px;">
+            <div id="pagination" class="pagination text-center" style="margin: 30px 0; display: flex; justify-content: center; gap: 10px; align-items: center;"></div>
+            <section class="filters text-center">
                 <h3>Популярные теги:</h3>
                 <div id="tag-buttons">
                     <button class="btn-tag" data-tag="2025">2025</button>
@@ -55,33 +43,23 @@
             </section>
         </div>
 
-        <!-- БЛОК ОНЛАЙН КИНОТЕАТРА (ИЗНАЧАЛЬНО СКРЫТ) -->
+        <!-- БЛОК ОНЛАЙН КИНОТЕАТРА -->
         <section id="player-section" class="player-section hidden">
             <button id="back-to-catalog" class="btn-back">&larr; Назад к списку</button>
-            
-            <!-- Контейнер для адаптивного iframe плеера ВК -->
             <div id="video-container"></div>
-            
-            <!-- Информация о выбранном фильме -->
             <h1 id="movie-title" style="margin: 15px 0 5px;"></h1>
             <p id="movie-category" style="color: #e50914; font-weight: bold; margin-bottom: 15px;"></p>
-            <p id="movie-desc" style="line-height: 1.6; color: #ccc; max-width: 800px; margin-bottom: 40px;"></p>
-            
-             <!-- НОВЫЙ КОНТЕЙНЕР: Теги текущего фильма -->
+            <p id="movie-desc" style="line-height: 1.6; color: #ccc; max-width: 800px; margin-bottom: 15px;"></p>
             <div id="movie-player-tags" style="margin-bottom: 40px; display: flex; flex-wrap: wrap; gap: 8px;"></div>
             
-            <!-- Блок рекомендаций похожих фильмов -->
             <div class="similar-section">
                 <h2 style="margin-bottom: 20px; font-size: 20px;">Похожие фильмы</h2>
                 <div class="movie-grid" id="similar-movies-grid"></div>
-                            <!-- НОВАЯ КНОПКА: Показать еще для похожих фильмов -->
                 <div class="text-center" style="margin-top: 20px;">
                     <button id="load-more-similar-btn" class="pagination-btn hidden">Показать еще</button>
-                </div>    
-                
+                </div>
             </div>
 
-            <!-- Популярные теги внутри плеера -->
             <section class="filters text-center" style="border-top: 1px solid #222; padding-top: 20px; margin-top: 40px;">
                 <h3>Искать по тегам:</h3>
                 <div id="player-tag-buttons">
@@ -94,10 +72,7 @@
         </section>
     </main>
 
-    <!-- Фиксированная кнопка "Вверх" -->
     <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Наверх">&#8593;</button>
-
-    <!-- Подключение файла логики -->
     <script src="script.js"></script>
 </body>
 </html>

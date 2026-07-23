@@ -103,7 +103,97 @@ body {
     margin-right: 15px;
 }
 
-/* БЛОК КАТАЛОГА (ТЕГИ И СЕТКА) */
+
+
+
+
+
+
+
+/* СЕТКА ФИЛЬМОВ (4 ШИРОКИХ КАРТОЧКИ В РЯД НА ПК) */
+.movie-grid {
+    display: grid;
+    /* 250px — идеальный размер под горизонтальные превью */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center; 
+}
+
+/* Вертикальная карточка фильма */
+.movie-card {
+    background: #1f1f1f;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    background: #252525;
+}
+
+/* Контейнер задает жесткую горизонтальную пропорцию 16:9 */
+.poster-container {
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Пропорции YouTube превью */
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Твоя горизонтальная картинка заполняет блок тютелька-в-тютельку */
+.poster-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Заполняет рамку без искажений и пустых полей */
+}
+
+/* Заглушка, если картинка потерялась */
+.no-poster-vertical {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+    background: #222;
+}
+
+/* Блок текста строго ПОД постом */
+.movie-info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Название фильма (красивый перенос до 2 строк) */
+.movie-info h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 20px;
+    height: 40px; 
+}
+
+/* Фильтры и теги */
 .filters h3 {
     margin-bottom: 12px;
     font-size: 16px;
@@ -131,48 +221,11 @@ body {
     border-color: #fff;
 }
 
-/* СЕТКА ФИЛЬМОВ (5 ШТУК В СТРОКУ, ПО ЦЕНТРУ) */
-.movie-grid {
-    display: grid;
-    /* 210px позволяет на ПК выстраивать ровно 5 фильмов в ряд в пределах 1200px */
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-    gap: 25px;
-    margin-bottom: 20px;
-    width: 100%;
-    justify-content: center; 
-}
-
-.movie-card {
-    background: #1f1f1f;
-    border-radius: 8px;
-    overflow: hidden;
-    cursor: pointer;
-    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.movie-card:hover {
-    transform: translateY(-5px);
-}
-
-.movie-card img {
-    width: 100%;
-    height: 290px;
-    object-fit: cover;
-}
-
-.movie-info {
-    padding: 12px;
-}
-
-.movie-info h4 {
-    font-size: 15px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 .movie-tags {
-    margin-top: 8px;
+    margin-top: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .tag-badge {
@@ -180,7 +233,6 @@ body {
     font-size: 11px;
     padding: 3px 8px;
     border-radius: 4px;
-    margin-right: 5px;
     color: #aaa;
 }
 
@@ -211,6 +263,16 @@ body {
     opacity: 0.4;
     cursor: not-allowed;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* ОНЛАЙН КИНОТЕАТР (СТРАНИЦА ПРОСМОТРА) */
 .player-section {
@@ -339,14 +401,16 @@ body {
         width: 100%;
     }
 
-    /* На смартфонах переключаемся на компактные карточки в ряд */
+    /* На смартфонах переключаемся на адаптивную сетку */
     .movie-grid {
-        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
         gap: 15px;
     }
 
-    .movie-card img {
-        height: 200px;
+    .movie-info h4 {
+        font-size: 13px;
+        line-height: 16px;
+        height: 32px;
     }
 
     .scroll-top-btn {
