@@ -12,7 +12,7 @@ let currentCategory = 'all';
 let currentTag = null;
 let searchQuery = '';
 let currentPage = 1;       
-const moviesPerPage = 50;   
+const moviesPerPage = 8;   
 
 let allSimilarMovies = [];
 let shownSimilarCount = 0;
