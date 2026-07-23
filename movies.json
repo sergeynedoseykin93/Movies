@@ -1,0 +1,453 @@
+[
+    {
+        "id": "transformers-beginning",
+        "title": "Трансформеры: Начало",
+        "category": "фантастика",
+        "tags": ["роботы", "2025"],
+        "poster": "https://yandex.net",
+        "description": "История происхождения Оптимуса Прайма и Мегатрона на их родной планете Кибертрон.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    },
+    {
+        "id": "avengers-classic",
+        "title": "Мстители",
+        "category": "боевик",
+        "tags": ["Marvel", "классика"],
+        "poster": "https://yandex.net",
+        "description": "Легендарная команда супергероев Земли объединяется, чтобы остановить коварного Локи.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture warm;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    },
+    {
+        "id": "interstellar-space",
+        "title": "Интерстеллар",
+        "category": "фантастика",
+        "tags": ["классика"],
+        "poster": "https://yandex.net",
+        "description": "Группа исследователей отправляется в путешествие сквозь червоточину, чтобы спасти человечество.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0" allowfullscreen><\/iframe>"
+    },
+    {
+        "id": "john-wick",
+        "title": "Джон Уик",
+        "category": "боевик",
+        "tags": ["классика"],
+        "poster": "https://yandex.net",
+        "description": "Бывший наемный убийца выходит из отставки, чтобы отомстить за своего пса.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    },
+    {
+        "id": "deadpool-and-wolverine",
+        "title": "Дэдпул и Росомаха",
+        "category": "комедия",
+        "tags": ["Marvel", "2025"],
+        "poster": "https://yandex.net",
+        "description": "Безумный наемник объединяется с угрюмым мутантом ради спасения вселенной.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    },
+    {
+        "id": "blade-runner-2049",
+        "title": "Бегущий по лезвию 2049",
+        "category": "фантастика",
+        "tags": ["роботы", "классика"],
+        "poster": "https://yandex.net",
+        "description": "Новый блейд-раннер раскрывает старую тайну, способную погрузить общество в хаос.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    },
+    {
+        "id": "hangover-vegas",
+        "title": "Мальчишник в Вегасе",
+        "category": "комедия",
+        "tags: ["классика"],
+        "poster": "https://yandex.net",
+        "description": "Друзья пытаются вспомнить, что произошло на безумной предсвадебной вечеринке.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    },
+    {
+        "id": "mad-max-fury",
+        "title": "Безумный Макс: Дорога ярости",
+        "category": "боевик",
+        "tags": ["классика"],
+        "poster": "https://yandex.net",
+        "description": "Погоня по бескрайней постапокалиптической пустыне на невероятных машинах.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder="0" allowfullscreen><\/iframe>"
+    },
+    {
+        "id": "i-robot",
+        "title": "Я, Робот",
+        "category": "фантастика",
+        "tags": ["роботы", "классика"],
+        "poster": "https://yandex.net",
+        "description": "Детектив расследует преступление, в котором подозревают искусственный интеллект.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    },
+    {
+        "id": "guardians-of-galaxy",
+        "title": "Стражи Галактики",
+        "category": "фантастика",
+        "tags": ["Marvel", "классика"],
+        "poster": "https://yandex.net",
+        "description": "Космические изгои объединяются перед лицом межгалактической угрозы.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    },
+    {
+        "id": "21-jump-street",
+        "title": "Мачо и Ботан",
+        "category": "комедия",
+        "tags": ["классика"],
+        "poster": "https://yandex.net",
+        "description": "Двое горе-полицейских отправляются в школу под прикрытием.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    },
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+        {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+    {
+        "id": "mission-impossible",
+        "title": "Миссия невыполнима",
+        "category": "боевик",
+        "tags": ["2025"],
+        "poster": "https://yandex.net",
+        "description": "Итан Хант выполняет сложнейшие трюки ради спасения человечества.",
+        "vkEmbed": "<iframe src=\"https://vk.com\" allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture;\" frameborder=\"0\" allowfullscreen><\/iframe>"
+    }
+
+]
