@@ -50,7 +50,15 @@
             <h1 id="movie-title" style="margin: 15px 0 5px;"></h1>
             <p id="movie-category" style="color: #e50914; font-weight: bold; margin-bottom: 15px;"></p>
             <p id="movie-desc" style="line-height: 1.6; color: #ccc; max-width: 800px; margin-bottom: 15px;"></p>
+
+              <!-- ВЫРАВНИВАНИЕ: Кнопка "Поделиться" строго под описанием по правому краю -->
+            <div style="display: flex; justify-content: flex-end; width: 100%; margin-bottom: 25px;">
+                <button id="player-share-trigger" class="share-trigger-btn">🔗 Поделиться</button>
+            </div>
+            
             <div id="movie-player-tags" style="margin-bottom: 40px; display: flex; flex-wrap: wrap; gap: 8px;"></div>
+
+          
             
             <div class="similar-section">
                 <h2 style="margin-bottom: 20px; font-size: 20px;">Похожие фильмы</h2>
@@ -71,6 +79,28 @@
             </section>
         </section>
     </main>
+
+
+      <!-- Модальное окно "Поделиться" -->
+    <div id="share-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button id="modal-close-btn" class="modal-close">&times;</button>
+            <h3>Поделиться фильмом</h3>
+            
+            <!-- Поле с готовой ссылкой -->
+            <div class="share-link-input-block">
+                <input type="text" id="share-modal-input" readonly>
+                <button id="share-modal-copy-btn">Копировать</button>
+            </div>
+
+            <!-- Иконки соцсетей -->
+            <div class="modal-socials">
+                <a id="modal-share-vk" href="#" target="_blank" style="background: #0077FF;">ВКонтакте</a>
+                <a id="modal-share-tg" href="#" target="_blank" style="background: #229ED9;">Telegram</a>
+                <a id="modal-share-ok" href="#" target="_blank" style="background: #ee8208;">Одноклассники</a>
+            </div>
+        </div>
+    </div>
 
     <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Наверх">&#8593;</button>
     <script src="script.js"></script>

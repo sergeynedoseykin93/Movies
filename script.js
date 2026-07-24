@@ -44,8 +44,9 @@ function createMovieCard(movie) {
         <div class="movie-info">
             <h4>${movie.title}</h4>
             <div class="movie-tags">
-                ${movie.tags ? movie.tags.map(t => `<span class="tag-badge">${t}</span>`).join('') : ''}
-            </div>
+               
+                 ${movie.tags ? movie.tags.slice(0, 3).map(t => `<span class="tag-badge">${t}</span>`).join('') : ''}
+                </div>
         </div>
     `;
 
@@ -196,10 +197,54 @@ function openMovie(movie, pushState = true) {
         };
     }
 
+    const shareTrigger = document.getElementById('player-share-trigger');
+    const shareModal = document.getElementById('share-modal');
+    
+    if (shareTrigger && shareModal) {
+        shareTrigger.onclick = () => {
+            const shareUrl = `${window.location.origin}${window.location.pathname}?id=${movie.id}`;
+            const shareTitle = `Смотрю фильм "${movie.title}" онлайн!`;
+            
+            const modalInput = document.getElementById('share-modal-input');
+            if (modalInput) modalInput.value = shareUrl;
+            
+            const modalCopyBtn = document.getElementById('share-modal-copy-btn');
+            if (modalCopyBtn) {
+                modalCopyBtn.innerText = "Копировать";
+                modalCopyBtn.onclick = () => {
+                    navigator.clipboard.writeText(shareUrl).then(() => {
+                        modalCopyBtn.innerText = "Готово! ✅";
+                        setTimeout(() => { modalCopyBtn.innerText = "Копировать"; }, 2000);
+                    });
+                };
+            }
+            
+            // НАДЕЖНЫЙ ВАРИАНТ СБОРКИ ССЫЛОК ЧЕРЕЗ ПЛЮСЫ (БЕЗ КОСЫХ КАВЫЧЕК)
+            const vkLink = document.getElementById('modal-share-vk');
+            if (vkLink) {
+                vkLink.href = "https://vk.com" + encodeURIComponent(shareUrl) + "&title=" + encodeURIComponent(shareTitle);
+            }
+            
+            const tgLink = document.getElementById('modal-share-tg');
+            if (tgLink) {
+                tgLink.href = "https://t.me" + encodeURIComponent(shareUrl) + "&text=" + encodeURIComponent(shareTitle);
+            }
+            
+            const okLink = document.getElementById('modal-share-ok');
+            if (okLink) {
+                okLink.href = "https://ok.ru" + encodeURIComponent(shareUrl) + "&title=" + encodeURIComponent(shareTitle);
+            }
+
+
+
+            
+            shareModal.classList.remove('hidden');
+        };
+    }
+
     renderSimilarMovies(movie);
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
-
 function closeMovie(pushState = true) {
     if (!catalogSection || !playerSection || !videoContainer || !similarMoviesGrid) return;
     
@@ -217,6 +262,22 @@ function closeMovie(pushState = true) {
     
     const loadMoreBtn = document.getElementById('load-more-similar-btn');
     if (loadMoreBtn) loadMoreBtn.classList.add('hidden');
+    
+    const shareModal = document.getElementById('share-modal');
+    if (shareModal) shareModal.classList.add('hidden');
+}
+
+const shareModalElement = document.getElementById('share-modal');
+const modalCloseBtn = document.getElementById('modal-close-btn');
+
+if (shareModalElement && modalCloseBtn) {
+    modalCloseBtn.onclick = () => shareModalElement.classList.add('hidden');
+    
+    window.addEventListener('click', (e) => {
+        if (e.target === shareModalElement) {
+            shareModalElement.classList.add('hidden');
+        }
+    });
 }
 
 if (document.getElementById('back-to-catalog')) {
